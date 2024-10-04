@@ -133,25 +133,30 @@ main {
     }
 
     .header-text h1 {
-        font-size: 2.5rem; 
+        font-size: 2rem;
     }
 
     .header-text p {
-        font-size: 1.2rem; 
+        font-size: 1rem;
     }
 
-    .right-side, .left-side {
-        width: 100%; 
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-side, .right-side {
+        width: 100%;
         margin-bottom: 20px;
     }
 
     .main-image {
-        max-width: 90%; 
-        margin: 0 auto;
+        max-width: 100%;
+        margin-bottom: 20px;
     }
 
-    .right-side {
-        margin-left: 0; 
-        text-align: center; 
+    .main-text {
+        font-size: 1rem; 
+        text-align: justify;
     }
 }
