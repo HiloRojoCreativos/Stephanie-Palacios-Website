@@ -1,16 +1,13 @@
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #CE3662; 
 }
-
 
 header {
     background-color: #212121;
@@ -20,7 +17,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 10px; 
+    padding: 0 10px;
     overflow: hidden;
 }
 
@@ -36,23 +33,23 @@ header {
 .logo {
     max-height: 12vh;
     max-width: 12vh;
-    margin-right: 20px; 
+    margin-right: 20px;
     height: auto;
 }
-
 
 .header-text h1 {
     color: #CE3662; 
     font-size: 3.5rem;
     font-weight: 700; 
+    letter-spacing: -1px;
 }
 
 .header-text p {
     color: white; 
     font-size: 1.5rem;
     font-weight: 700; 
+    letter-spacing: -0.5px;
 }
-
 
 main {
     padding: 40px;
@@ -92,11 +89,10 @@ main {
 
 .main-text {
     margin-bottom: 20px;
-    line-height: 1.6;
-    text-align: justify;
+    line-height: 1.4;
+    text-align: left; 
     font-size: 1.2rem;
 }
-
 
 .social-buttons {
     margin-top: 20px;
@@ -113,7 +109,6 @@ main {
     border-radius: 8px;
 }
 
-
 @media (max-width: 768px) {
     header {
         flex-direction: column;
@@ -124,6 +119,7 @@ main {
     .header-content {
         flex-direction: column;
         text-align: center;
+        margin-left: 0; 
     }
 
     .logo {
@@ -157,6 +153,7 @@ main {
 
     .main-text {
         font-size: 1rem; 
-        text-align: justify;
+        text-align: left; 
+        line-height: 1.4;
     }
 }
